@@ -2,7 +2,7 @@
 <index>
   <info>
     <update version="1.0">
-      <file name="sample.index" url="http://hosting.com/files/sample.index" />
+      <file name="My-Custom-Stuff.index" url="https://raw.githubusercontent.com/TrojanHorseStudio/Custom-Aurora-Content/master/My-Custom-Stuff.index" />
     </update>
   </info>
   <files>
