@@ -2,10 +2,10 @@
 <index>
   <info>
     <update version="1.0">
-      <file name="My-Custom-Stuff.index" url="https://raw.githubusercontent.com/TrojanHorseStudio/Custom-Aurora-Content/master/My-Custom-Stuff.index" />
+      <file name="My-Custom-Stuff.index" url="https://raw.githubusercontent.com/TrojanHorseStudio/Custom-Aurora-Content/main/My-Custom-Stuff.index" />
     </update>
   </info>
   <files>
-    <file name="Rybonators-Revised-Ranger.xml" url="https://raw.githubusercontent.com/TrojanHorseStudio/Custom-Aurora-Content/master/Stuff/Rybonators-Revised-Ranger.xml" />
+    <file name="Rybonators-Revised-Ranger.xml" url="https://raw.githubusercontent.com/TrojanHorseStudio/Custom-Aurora-Content/main/Stuff/Rybonators-Revised-Ranger.xml" />
   </files>
 </index>
