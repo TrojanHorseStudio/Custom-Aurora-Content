@@ -6,7 +6,6 @@
     </update>
   </info>
   <files>
-    <file name="source.xml" url="http://hosting.com/files/source.xml" />
-    <file name="items.xml" url="http://hosting.com/files/items.xml" />
+    <file name="Rybonators-Revised-Ranger.xml" url="https://raw.githubusercontent.com/TrojanHorseStudio/Custom-Aurora-Content/master/Stuff/Rybonators-Revised-Ranger.xml" />
   </files>
 </index>
