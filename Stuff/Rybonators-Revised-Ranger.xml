@@ -109,7 +109,7 @@
 			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_STRENGTH" requirements="!ID_WOTC_PHB_MULTICLASS_RANGER" />
 			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_DEXTERITY" requirements="!ID_WOTC_PHB_MULTICLASS_RANGER" />
 			<select type="Proficiency" name="Skill Proficiency (Ranger)" supports="Skill,Ranger" number="2" requirements="!ID_WOTC_PHB_MULTICLASS_RANGER" />
-            <grant type="proficiency" id="ID_PROFICIENCY_SKILL_SURVIVAL" requirements="ID_WOTC_PHB_MULTICLASS_RANGER" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_SURVIVAL" requirements="!ID_WOTC_PHB_MULTICLASS_RANGER" />
 			<grant type="Class Feature" id="ID_WOTC_CLASSFEATURE_RANGER_MASTER_TRACKER" level="1"/>
             <grant type="Class Feautre" id="ID_WOTC_CLASSFEATURE_RANGER_STALKER" level="1"/>
 			<grant type="Class Feature" id="ID_WOTC_CLASSFEATURE_RANGER_NATURAL_EXPLORER" level="1"/>
