@@ -154,15 +154,8 @@
 	</element>
     <element name="Stalker" type="Class Feature" source="Rybonator" id="ID_WOTC_CLASSFEATURE_RANGER_STALKER">
 		<description>
-			<p>Your time spent in the wilderness has prepared you to hunt</p> 
-            <p>all manner of prey. Beginning at 1st level, when you</p>
-            <p>succeed on a Survival check to detect a trail left by one or</p>
-            <p>more creatures, you gain advantage on Perception checks</p> 
-            <p>to track down those creatures. In addition, you may add</p>
-            <p>your proficiency bonus to damage rolls against creatures</p>
-            <p>that you have tracked with your Survival skill.</p>
-            <p class="indent">At 6th level, you gain advantage on Stealth rolls against</p> 
-            <p>creatures that you have tracked with the Stalker feature.</p>
+			<p>Your time spent in the wilderness has prepared you to hunt all manner of prey. Beginning at 1st level, when you succeed on a Survival check to detect a trail left by one or more creatures, you gain advantage on Perception checks to track dow nthose creatures. In addition, you may add your proficiency bonus to damage rolls against creatures taht you have tracked with your Survival skill.</p>
+            <p class="indent"> At 6th level, you gain advantage on Stealth rolls against creatures that you ahve tracked with the Stalker feature
 		</description>
 		<sheet>
 			<description>You can expend one ranger spell slot to focus your awareness on the region around you.
@@ -274,22 +267,9 @@
 	</element>
     <element name="Big Game Hunter" type="Class Feature" source="Rybonator" id="ID_WOTC_CLASSFEATURE_RANGER_BIG_GAME_HUNTER">
         <description>
-            <p>Starting at 3rd level, you notice broken branches,</p>
-            <p>compacted ground, cracked street tiles, the sound of heavy</p>
-            <p>steps, and other signs of large creatures in the area. By</p>
-            <p>spending 1 uninterrupted minute in concentration (as if</p>
-            <p>you were concentrating on a spell), you can sense whether</p>
-            <p>there are any large or larger creatures are within 5 miles of</p>
-            <p>your current location. This feature reveals how large the</p>
-            <p>creatures may be, their numbers and their general</p>
-            <p>direction and distance (in miles) from you.</p>
-            <p class="indent">If there are multiple creatures or groups of creatures</p>
-            <p>within range, you learn this information for each group.</p>
-            <p class="indent">Beginning at 6th level, you gain further insight from the</p>
-            <p>creatures you notice with this feature. You learn the basic</p>
-            <p>mood and intent from these creatures and have advantage</p>
-            <p>on skill checks using your Animal Handling skill on large</p>
-            <p>or larger creatures.</p>
+            <p>Starting at 3rd level, you notice broken branches, compacted ground, cracked street tiles, the sound of heavy steps, and other signs of large creatures in the area. By spending 1 uninterrupted minute in concentration (as if you were concentrating on a spell), you can sense whether there are any large or larger creatures are within 5 miles of your current location. This feature reveals how large the creatures may be, their numbers and their general direction and distance (in miles) from you.</p>
+            <p class="indent">If there are multiple creatures or groups of creatures within range, you learn this information for each group.</p>
+            <p class="indent">Beginning at 6th level, you gain further insight from the creatures you notice with this feature. You learn the basic mood and intent from these creatures and have advantage on skill checks using your Animal Handling skill on large or larger creatures.</p>  
         </description>
     </element>
 	<element name="Ability Score Improvement" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_CLASSFEATURE_RANGER_ASI">
