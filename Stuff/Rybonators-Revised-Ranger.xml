@@ -4,7 +4,7 @@
 		<name>Revised Ranger</name>
 		<description>The Revised Ranger class from the Rybonator.</description>
 		<author url="https://drive.google.com/file/d/1Oei2OGA861NWvFxVAPgnKNCIKNuwP220/view?fbclid=IwAR0SfrURpklal6VcSuIBWMylCLkqviUW9rTgMm7u9zNxirQV9zEl2dQ1QT8">Wizards of the Coast</author>
-		<update version="5.1">
+		<update version="5.1.1">
 			<file name="Rybonators-Revised-Ranger.xml" url="https://raw.githubusercontent.com/TrojanHorseStudio/Custom-Aurora-Content/master/Stuff/Rybonators-Revised-Ranger.xml" />
 		</update>
 	</info>
@@ -76,19 +76,19 @@
 				<tr><td>19th</td><td class="left">Ability Score Improvement</td><td>11</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td></tr>
 				<tr><td>20th</td><td class="left">Eagle Eyed</td><td>11</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td></tr>
 			</table>
-			<div element="ID_WOTC_CLASSFEATURE_RANGER_MASTER_TRACKER" />
-            <div element="ID_WOTC_CLASSFEATURE_RANGER_STALKER" />
-			<div element="ID_WOTC_CLASSFEATURE_RANGER_NATURAL_EXPLORER" />
+			<div element="ID_RYBONATOR_CLASSFEATURE_RANGER_MASTER_TRACKER" />
+            <div element="ID_RYBONATOR_CLASSFEATURE_RANGER_STALKER" />
+			<div element="ID_RYBONATOR_CLASSFEATURE_RANGER_NATURAL_EXPLORER" />
 			<div element="ID_WOTC_CLASSFEATURE_RANGER_FIGHTING_STYLE" />
 			<div element="ID_WOTC_CLASSFEATURE_RANGER_SPELLCASTING" />
 			<div element="ID_WOTC_CLASSFEATURE_RANGER_RANGER_ARCHETYPE" />
-            <div element="ID_WOTC_CLASSFEATURE_RANGER_BIG_GAME_HUNTER" />
+            <div element="ID_RYBONATOR_CLASSFEATURE_RANGER_BIG_GAME_HUNTER" />
 			<div element="ID_WOTC_CLASSFEATURE_RANGER_ASI" />
 			<div element="ID_WOTC_CLASSFEATURE_RANGER_EXTRA_ATTACK" />
-			<div element="ID_WOTC_CLASSFEATURE_RANGER_HIDE_IN_PLAIN_SIGHT" />
-			<div element="ID_WOTC_CLASSFEATURE_RANGER_VANISH" />
-			<div element="ID_WOTC_CLASSFEATURE_RANGER_FERAL_SENSES" />
-			<div element="ID_WOTC_CLASSFEATURE_RANGER_EAGLE_EYED" />
+			<div element="ID_RYBONATOR_CLASSFEATURE_RANGER_HIDE_IN_PLAIN_SIGHT" />
+			<div element="ID_RYBONATOR_CLASSFEATURE_RANGER_VANISH" />
+			<div element="ID_RYBONATOR_CLASSFEATURE_RANGER_FERAL_SENSES" />
+			<div element="ID_RYBONATOR_CLASSFEATURE_RANGER_EAGLE_EYED" />
 		</description>
 		<sheet display="false">
 			<description>A warrior who uses martial prowess and nature magic to combat threats on the edges of civilization.</description>
