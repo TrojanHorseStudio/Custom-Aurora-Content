@@ -4,7 +4,7 @@
 		<name>Revised Ranger</name>
 		<description>The Revised Ranger class from the Rybonator.</description>
 		<author url="https://drive.google.com/file/d/1Oei2OGA861NWvFxVAPgnKNCIKNuwP220/view?fbclid=IwAR0SfrURpklal6VcSuIBWMylCLkqviUW9rTgMm7u9zNxirQV9zEl2dQ1QT8">Wizards of the Coast</author>
-		<update version="5.1.2">
+		<update version="5.2">
 			<file name="Rybonators-Revised-Ranger.xml" url="https://raw.githubusercontent.com/TrojanHorseStudio/Custom-Aurora-Content/master/Stuff/Rybonators-Revised-Ranger.xml" />
 		</update>
 	</info>
