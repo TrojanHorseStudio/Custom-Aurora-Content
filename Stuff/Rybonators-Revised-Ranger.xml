@@ -4,7 +4,7 @@
 		<name>Revised Ranger</name>
 		<description>The Revised Ranger class from the Rybonator.</description>
 		<author url="https://drive.google.com/file/d/1Oei2OGA861NWvFxVAPgnKNCIKNuwP220/view?fbclid=IwAR0SfrURpklal6VcSuIBWMylCLkqviUW9rTgMm7u9zNxirQV9zEl2dQ1QT8">Wizards of the Coast</author>
-		<update version="1.0">
+		<update version="4.0">
 			<file name="Rybonators-Revised-Ranger.xml" url="https://raw.githubusercontent.com/TrojanHorseStudio/Custom-Aurora-Content/master/Stuff/Rybonators-Revised-Ranger.xml" />
 		</update>
 	</info>
@@ -80,14 +80,14 @@
 				<tr><td>20th</td><td class="left">Eagle Eyed</td><td>11</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td></tr>
 			</table>
 			<div element="ID_WOTC_CLASSFEATURE_RANGER_MASTER_TRACKER" />
+            <div element="ID_WOTC_CLASSFEATURE_RANGER_STALKER" />
 			<div element="ID_WOTC_CLASSFEATURE_RANGER_NATURAL_EXPLORER" />
 			<div element="ID_WOTC_CLASSFEATURE_RANGER_FIGHTING_STYLE" />
 			<div element="ID_WOTC_CLASSFEATURE_RANGER_SPELLCASTING" />
 			<div element="ID_WOTC_CLASSFEATURE_RANGER_RANGER_ARCHETYPE" />
-			<div element="ID_WOTC_CLASSFEATURE_RANGER_STALKER" />
+            <div element="ID_WOTC_CLASSFEATURE_RANGER_BIG_GAME_HUNTER" />
 			<div element="ID_WOTC_CLASSFEATURE_RANGER_ASI" />
 			<div element="ID_WOTC_CLASSFEATURE_RANGER_EXTRA_ATTACK" />
-			<div element="ID_WOTC_CLASSFEATURE_RANGER_BIG_GAME_HUNTER" />
 			<div element="ID_WOTC_CLASSFEATURE_RANGER_HIDE_IN_PLAIN_SIGHT" />
 			<div element="ID_WOTC_CLASSFEATURE_RANGER_VANISH" />
 			<div element="ID_WOTC_CLASSFEATURE_RANGER_FERAL_SENSES" />
@@ -151,6 +151,23 @@
 		<rules>
             <select type="Class Feature" name="Expertise (Master Tracker)" level="1" number="2" supports="ID_INTERNAL_SUPPORT_EXPERTISE"/>
 		</rules>
+	</element>
+    <element name="Stalker" type="Class Feature" source="Rybonator" id="ID_WOTC_CLASSFEATURE_RANGER_STALKER">
+		<description>
+			<p>Your time spent in the wilderness has prepared you to hunt</p> 
+            <p>all manner of prey. Beginning at 1st level, when you</p>
+            <p>succeed on a Survival check to detect a trail left by one or</p>
+            <p>more creatures, you gain advantage on Perception checks</p> 
+            <p>to track down those creatures. In addition, you may add</p>
+            <p>your proficiency bonus to damage rolls against creatures</p>
+            <p>that you have tracked with your Survival skill.</p>
+            <p class="indent">At 6th level, you gain advantage on Stealth rolls against</p> 
+            <p>creatures that you have tracked with the Stalker feature.</p>
+		</description>
+		<sheet>
+			<description>You can expend one ranger spell slot to focus your awareness on the region around you.
+			For 1 minute per level of the spell slot you expend, you can sense whether the following types of creatures are present within 1 mile of you (or within up to 6 miles if you are in your favored terrain): aberrations, celestials, dragons, elementals, fey, fiends, and undead. This feature doesn’t reveal the creatures’ location or number.</description>
+		</sheet>
 	</element>
 	<element name="Natural Explorer" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_CLASSFEATURE_RANGER_NATURAL_EXPLORER">
 		<description>
@@ -255,23 +272,26 @@
 			<select type="Archetype" name="Ranger Archetype" supports="Ranger Archetype" />
 		</rules>
 	</element>
-	<element name="Stalker" type="Class Feature" source="Rybonator" id="ID_WOTC_CLASSFEATURE_RANGER_STALKER">
-		<description>
-			<p>Your time spent in the wilderness has prepared you to hunt</p> 
-            <p>all manner of prey. Beginning at 1st level, when you</p>
-            <p>succeed on a Survival check to detect a trail left by one or</p>
-            <p>more creatures, you gain advantage on Perception checks</p> 
-            <p>to track down those creatures. In addition, you may add</p>
-            <p>your proficiency bonus to damage rolls against creatures</p>
-            <p>that you have tracked with your Survival skill.</p>
-            <p>At 6th level, you gain advantage on Stealth rolls against</p> 
-            <p>creatures that you have tracked with the Stalker feature.</p>
-		</description>
-		<sheet>
-			<description>You can expend one ranger spell slot to focus your awareness on the region around you.
-			For 1 minute per level of the spell slot you expend, you can sense whether the following types of creatures are present within 1 mile of you (or within up to 6 miles if you are in your favored terrain): aberrations, celestials, dragons, elementals, fey, fiends, and undead. This feature doesn’t reveal the creatures’ location or number.</description>
-		</sheet>
-	</element>
+    <element name="Big Game Hunter" type="Class Feature" source="Rybonator" id="ID_WOTC_CLASSFEATURE_RANGER_BIG_GAME_HUNTER">
+        <description>
+            <p>Starting at 3rd level, you notice broken branches,</p>
+            <p>compacted ground, cracked street tiles, the sound of heavy</p>
+            <p>steps, and other signs of large creatures in the area. By</p>
+            <p>spending 1 uninterrupted minute in concentration (as if</p>
+            <p>you were concentrating on a spell), you can sense whether</p>
+            <p>there are any large or larger creatures are within 5 miles of</p>
+            <p>your current location. This feature reveals how large the</p>
+            <p>creatures may be, their numbers and their general</p>
+            <p>direction and distance (in miles) from you.</p>
+            <p class="indent">If there are multiple creatures or groups of creatures</p>
+            <p>within range, you learn this information for each group.</p>
+            <p class="indent">Beginning at 6th level, you gain further insight from the</p>
+            <p>creatures you notice with this feature. You learn the basic</p>
+            <p>mood and intent from these creatures and have advantage</p>
+            <p>on skill checks using your Animal Handling skill on large</p>
+            <p>or larger creatures.</p>
+        </description>
+    </element>
 	<element name="Ability Score Improvement" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_CLASSFEATURE_RANGER_ASI">
 		<compendium display="false" />
 		<description>
@@ -297,7 +317,7 @@
 			<stat name="extra attack:count" value="2" level="5" bonus="extra attack" />
 		</rules>
 	</element>
-	<element name="Land’s Stride" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_CLASSFEATURE_RANGER_LANDS_STRIDE">
+	<element name="Of the Wild" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_CLASSFEATURE_RANGER_OF_THE_WILD">
 		<description>
 			<p>Starting at 8th level, moving through nonmagical difficult terrain costs you no extra movement. You can also pass through nonmagical plants without being slowed by them and without taking damage from them if they have thorns, spines, or a similar hazard.</p>
 			<p class="indent">In addition, you have advantage on saving throws against plants that are magically created or manipulated to impede movement, such those created by the entangle spell.</p>
@@ -335,7 +355,7 @@
 			You are also aware of the location of any invisible creature within 30 feet of you, provided that the creature isn’t hidden from you and you aren’t blinded or deafened.</description>
 		</sheet>
 	</element>
-	<element name="Foe Slayer" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_CLASSFEATURE_RANGER_FOE_SLAYER">
+	<element name="Eagle Eyed" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_CLASSFEATURE_RANGER_EAGLE_EYED">
 		<description>
 			<p>At 20th level, you become an unparalleled hunter of your enemies. Once on each of your turns, you can add your Wisdom modifier to the attack roll or the damage roll of an attack you make against one of your favored enemies. You can choose to use this feature before or after the roll, but before any effects of the roll are applied.</p>
 		</description>
