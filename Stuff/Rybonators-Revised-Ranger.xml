@@ -149,7 +149,7 @@
 			<description>Proficiency bonus is doubled for any ability checks you make with your Survival Skill</description>
 		</sheet>
 		<rules>
-            <select type="Class Feature" name="Expertise (Master Tracker)" level="1" number="2" supports="ID_INTERNAL_SUPPORT_EXPERTISE"/>
+            <select type="Class Feature" name="Expertise (Master Tracker)" level="1" number="1" supports="ID_INTERNAL_SUPPORT_EXPERTISE"/>
 		</rules>
 	</element>
     <element name="Stalker" type="Class Feature" source="Rybonator" id="ID_WOTC_CLASSFEATURE_RANGER_STALKER">
@@ -342,6 +342,22 @@
 		<sheet>
 			<description>Once on each of your turns, you can add {{wisdom:modifier}} to the attack roll or the damage roll of an attack you make against one of your favored enemies. You can choose to use this feature before or after the roll, but before any effects of the roll are applied.</description>
 		</sheet>
+	</element>
+
+<!-- Expertise -->
+    <element name="Skill Expertise (Survival)" type="Class Feature" source="Player’s Handbook" id="ID_EXPERTISE_SKILL_SURVIVAL">
+		<supports>Master Tracker, Skill, ID_INTERNAL_SUPPORT_EXPERTISE</supports>
+		<requirements>ID_PROFICIENCY_SKILL_SURVIVAL</requirements>
+		<description>
+			<p>Your proficiency bonus is doubled for any Survival check you make.</p>
+			<div class="reference">
+				<div element="ID_PROFICIENCY_SKILL_SURVIVAL" />
+			</div>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="survival:proficiency" value="proficiency" bonus="double" />
+		</rules>
 	</element>
 
 	<element name="Aberrations" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_CLASSFEATURE_RANGER_MASTER_TRACKER_ABERRATIONS">
