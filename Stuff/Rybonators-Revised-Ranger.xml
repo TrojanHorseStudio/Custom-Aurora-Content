@@ -155,7 +155,7 @@
     <element name="Stalker" type="Class Feature" source="Rybonator" id="ID_WOTC_CLASSFEATURE_RANGER_STALKER">
 		<description>
 			<p>Your time spent in the wilderness has prepared you to hunt all manner of prey. Beginning at 1st level, when you succeed on a Survival check to detect a trail left by one or more creatures, you gain advantage on Perception checks to track dow nthose creatures. In addition, you may add your proficiency bonus to damage rolls against creatures taht you have tracked with your Survival skill.</p>
-            <p class="indent"> At 6th level, you gain advantage on Stealth rolls against creatures that you ahve tracked with the Stalker feature
+            <p class="indent"> At 6th level, you gain advantage on Stealth rolls against creatures that you ahve tracked with the Stalker feature. </p>
 		</description>
 		<sheet>
 			<description>You can expend one ranger spell slot to focus your awareness on the region around you.
