@@ -272,6 +272,9 @@
             <p class="indent">If there are multiple creatures or groups of creatures within range, you learn this information for each group.</p>
             <p class="indent">Beginning at 6th level, you gain further insight from the creatures you notice with this feature. You learn the basic mood and intent from these creatures and have advantage on skill checks using your Animal Handling skill on large or larger creatures.</p>  
         </description>
+        <sheet>
+            <description>By spending 1 uninterrupted minute in concentration you cansense whether there are any large or larger creatures are within 5 miles of your current location. This feature reveals how large the creatures may be, their numbers and their general direction and distance (in miles) from you. If there are multiple creatures or groups of creatures within range, you learn this information for each group. At 6th level you learn the basic mood and intent of these creatures and have advantage on skill checks using your Animal Handling skill on large or larger creatures.</description>
+        </sheet>
     </element>
 	<element name="Ability Score Improvement" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_CLASSFEATURE_RANGER_ASI">
 		<compendium display="false" />
@@ -334,7 +337,7 @@
 			You are also aware of the location of any invisible creature within 30 feet of you, provided that the creature isn’t hidden from you and you aren’t blinded or deafened.</description>
 		</sheet>
 	</element>
-	<element name="Eagle Eyed" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_CLASSFEATURE_RANGER_EAGLE_EYED">
+	<element name="Eagle Eyed" type="Class Feature" source="Rybonator" id="ID_WOTC_CLASSFEATURE_RANGER_EAGLE_EYED">
 		<description>
 			<p>At 20th level, you become an unparalleled hunter of your enemies. Once on each of your turns, you can add your Wisdom modifier to the attack roll or the damage roll of an attack you make against one of your favored enemies. You can choose to use this feature before or after the roll, but before any effects of the roll are applied.</p>
 		</description>
